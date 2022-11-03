@@ -1,6 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import { NavBar } from "./assets/Navigation/navigation-bar";
+import WebRoutes from "./routes.jsx";
 import "./App.css";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <div>
       <NavBar></NavBar>
+      <WebRoutes></WebRoutes>
 
       {/* <h1>Vite + React</h1>
       <div className="card">
